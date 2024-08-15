@@ -65,7 +65,7 @@ function Project() {
               #Categories
             </p>
             <p class="mt-2 flex-1 text-base font-semibold text-gray-900">
-              Project Name
+              Deep thougtht
             </p>
             <p class="mt-2 w-full text-sm leading-normal text-gray-600">
               Description
@@ -82,7 +82,7 @@ function Project() {
               #Categories
             </p>
             <p class="mt-2 flex-1 text-base font-semibold text-gray-900">
-              Project Name
+              Amazon Clone
             </p>
             <p class="mt-2 w-full text-sm leading-normal text-gray-600">
               Description
@@ -99,7 +99,7 @@ function Project() {
               #Categories
             </p>
             <p class="mt-2 flex-1 text-base font-semibold text-gray-900">
-              Project Name
+              Coursify Website
             </p>
             <p class="mt-2 w-full text-sm leading-normal text-gray-600">
               Description
