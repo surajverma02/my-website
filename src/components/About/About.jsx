@@ -7,25 +7,25 @@ function About() {
         <div className="flex items-center justify-center gap-24">
           <div className="w-1/2">
             <h2 className="text-5xl text-gray-900 font-bold">
-              Passionate Java <br /> Full Stack Developer
+              Java Full <br /> Stack Developer
             </h2>
             <p className="mt-8 text-lg text-gray-600">
               Hi Everyone, I am
               <span className="text-black font-semibold"> Suraj</span>. I
-              recently completed graduation from{" "}
+              recently completed graduation from
               <span className="text-black font-semibold">
                 Atma Ram Sanatan Dharma College
               </span>
               , Delhi University in the field of Electronics.
             </p>
             <p className="mt-1 text-lg text-gray-600">
-              I am a passionate java developer. I learnt{" "}
+              I am a passionate java developer. I learnt
               <span className="text-black font-semibold">Back-end</span>
               technologies like Spring Boot, Spring Security, Hibernate,
-              Microservices, Junit, Postman and{" "}
-              <span className="text-black font-semibold">Front-end</span>{" "}
+              Microservices, Junit, Postman and
+              <span className="text-black font-semibold">Front-end</span>
               technologies like Html, Css, Javascript, React, Tailwind. Also, I
-              have good graps on MySql and MongoDB{" "}
+              have good graps on MySql and MongoDB
               <span className="text-black font-semibold">
                 database management systems
               </span>

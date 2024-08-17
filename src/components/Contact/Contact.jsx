@@ -17,6 +17,7 @@ function Contact() {
               className="h-10 w-5/6 rounded-full border border-black bg-white px-5 text-base focus:outline-none"
               type="text"
               id="name"
+              name="name"
               placeholder="Name"
               required
             />
@@ -24,6 +25,7 @@ function Contact() {
               className="h-10 w-5/6 rounded-full border border-black bg-white px-5 text-base focus:outline-none"
               type="email"
               id="email"
+              name="email"
               placeholder="Email"
               required
             />
@@ -31,6 +33,7 @@ function Contact() {
               className="h-10 w-5/6 rounded-full border border-black bg-white px-5 text-base focus:outline-none"
               type="number"
               id="phone"
+              name="phone"
               placeholder="Phone No."
               required
             />
@@ -38,6 +41,7 @@ function Contact() {
               className="pt-2.5 h-10 w-5/6 rounded-full border border-black bg-white px-5 text-base focus:outline-none"
               type="textbox"
               id="message"
+              name="message"
               placeholder="Message Me..."
             ></textarea>
             <input
