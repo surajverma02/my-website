@@ -37,7 +37,7 @@ function Header() {
               </li>
               <li>
                 <NavLink
-                  to="/about" 
+                  to="/about"
                   className={({ isActive }) =>
                     `${
                       isActive ? "text-black" : "text-gray-600"
@@ -45,6 +45,18 @@ function Header() {
                   }
                 >
                   About
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/github"
+                  className={({ isActive }) =>
+                    `${
+                      isActive ? "text-black" : "text-gray-600"
+                    } block text-lg font-bold py-2 px-1 duration-200 hover:text-black`
+                  }
+                >
+                  Github
                 </NavLink>
               </li>
               <li>
