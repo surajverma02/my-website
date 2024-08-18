@@ -13,7 +13,6 @@ function Header() {
             <a
               className="text-white bg-gray-800 hover:bg-gray-600 font-semibold rounded-full text-base px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
               href="/assets/Suraj_Resume.pdf"
-              target="_blank"
             >
               Download CV
             </a>

@@ -15,7 +15,7 @@ import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
 import SinglePage from "./components/SinglePage/SinglePage";
-import Github from "./components/Github/Github";
+import Github, { githubInfoLoader } from "./components/Github/Github";
 
 // const router = createBrowserRouter([
 //   {
@@ -44,15 +44,17 @@ import Github from "./components/Github/Github";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+    <>
       <Route path="/" element={<App />}>
         <Route path="" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="project" element={<Project />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="github" element={<Github />} />
-        <Route path="name" element={<PageNotFound />} />
+        <Route loader={githubInfoLoader} path="github" element={<Github />} />
         <Route path="project/:useId" element={<SinglePage />} />
       </Route>
+      <Route path="/pagenotfind" element={<PageNotFound />} />
+    </>
   )
 );
 

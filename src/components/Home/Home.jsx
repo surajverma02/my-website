@@ -37,19 +37,40 @@ function Home() {
               Hi, Developers
             </h1>
             <p class="mt-6 text-lg leading-8 text-gray-600">
-              I'm an Entry-level Programmer from New Delhi, India with specialization in Java Full Stack (server-side framework Spring Boot, client-side framework React and MySQL database management ). 
+              I'm an Entry-level Programmer from New Delhi, India with
+              specialization in Java Full Stack (server-side framework Spring
+              Boot, client-side framework React and MySQL database management ).
             </p>
             <div class="mt-10 flex items-center justify-center gap-x-2">
               <Link
-              to='/project'
+                to="/project"
                 class="rounded-full bg-black px-10 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80"
-                >My Projects</Link>
-              
+              >
+                My Projects
+              </Link>
+
               <Link
                 to="https://www.linkedin.com/in/suraj-verma-a4a8b8221"
-                class="rounded-full border border-black px-10 py-2 text-sm font-semibold text-black shadow-sm"
+                class="rounded-full border border-black px-6 py-2 text-sm font-semibold text-black shadow-sm flex"
               >
-                Let's Connect
+                Let's Connect &nbsp;
+                <svg
+                  class="w-6 h-6 text-gray-800 "
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 12H5m14 0-4 4m4-4-4-4"
+                  />
+                </svg>
               </Link>
             </div>
           </div>
