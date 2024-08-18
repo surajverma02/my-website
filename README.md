@@ -1,5 +1,8 @@
 # Personal Website
 
+## Link
+<a href="https://surajverma02.netlify.app/">surajverma02</a>
+
 ## Description
 
 This project is a personal website built using **React**. The website serves as an online portfolio to showcase your skills, projects, and experiences. It includes sections like an about me, projects, resume, and a contact form to help visitors get in touch with you.
@@ -19,7 +22,10 @@ This project is a personal website built using **React**. The website serves as 
 - **React Router:** For navigation between different sections/pages of the website for utility-first styling and rapid UI development.
 
 ## Sample
+<<<<<<< HEAD
   <img src="/assets/sample/page1.png" alt="">
   <img src="/assets/sample/page2.png" alt="">
   <img src="/assets/sample/page3.png" alt="">
   <img src="/assets/sample/page4.png" alt="">
+=======
+>>>>>>> 7d2ca5ac720ddf3a3040756668f366ae5f7e614b
