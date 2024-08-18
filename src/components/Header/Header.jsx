@@ -6,9 +6,9 @@ function Header() {
     <header className="shadow sticky z-50 top-0">
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <Link to="/" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img src="/logo.png" className="mr-3 h-12" alt="Logo" />
-          </Link>
+          </a>
           <div className="flex items-center lg:order-2">
             <a
               className="text-white bg-gray-800 hover:bg-gray-600 font-semibold rounded-full text-base px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"

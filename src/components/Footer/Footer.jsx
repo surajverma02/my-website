@@ -8,7 +8,7 @@ function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-700 sm:text-center">
             &copy; 2024 &nbsp;
-            <a href="#" className="font-semibold hover:text-blue-800">
+            <a href="https://www.instagram.com/suraj.verma02/?igshid=ZDdkNTZiNTM%3D" className="font-semibold hover:text-blue-800">
               surajverma
             </a>
             . All Rights Reserved.
@@ -34,7 +34,7 @@ function Footer() {
               <span className="sr-only">GitHub account</span>
             </Link>
             
-            <Link to="#" className="text-gray-500">
+            <Link to="https://www.linkedin.com/in/surajverma02/" className="text-gray-500">
               <svg
                 className="w-4 h-4 text-gray-500 "
                 aria-hidden="true"
@@ -73,7 +73,7 @@ function Footer() {
               </svg>
               <span className="sr-only">Facebook</span>
             </Link>
-            <Link to="#" className="text-gray-500">
+            <Link to="https://www.instagram.com/suraj.verma02/?igshid=ZDdkNTZiNTM%3D" className="text-gray-500">
               <svg
                 className="w-6 h-6 text-gray-500 "
                 aria-hidden="true"

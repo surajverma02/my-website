@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 
 function Github() {
-
   // const [data, setData] = useState([]);
   // useEffect(() => {
   //   fetch("https://api.github.com/users/surajverma02")
@@ -10,16 +9,18 @@ function Github() {
   //     .then((data) => setData(data));
   // }, []);
 
-  const data = useLoaderData()
+  const data = useLoaderData();
 
   return (
     <div className="py-32 bg-white">
       <div className="container m-auto px-24 text-gray-600">
         <div className="flex items-center justify-center gap-24">
           <div className="w-2/5 shadow-xl py-12 px-5">
-            <h2 className="text-5xl text-gray-900 font-bold">{data.name}</h2>
+            <h2 className="text-5xl text-gray-900 font-bold">
+              <a href="https://github.com/surajverma02">{data.name}</a>
+            </h2>
             <p className="mt-4 text-justify text-base text-gray-600">
-              {data.bio}
+              <p className="font-bold">{data.login}, </p>{data.bio}
             </p>
             <div className="text-base font-bold mt-2 flex flex-col">
               <p>Total Repository: {data.public_repos} </p>
@@ -42,10 +43,10 @@ function Github() {
 
 export default Github;
 
+export const githubInfoLoader = async () => {
+  const response = await fetch(
+    "https://api.github.com/users/surajverma02"
+  ).then((res) => res.json());
 
-export const githubInfoLoader = async ()=>{
-  const response = await fetch("https://api.github.com/users/surajverma02")
-  .then(res => res.json())
-
-  return response
-}
+  return response;
+};
