@@ -19,3 +19,7 @@ This project is a personal website built using **React**. The website serves as 
 - **React Router:** For navigation between different sections/pages of the website for utility-first styling and rapid UI development.
 
 ## Sample
+  <img src="/assets/sample/page1.png" alt="">
+  <img src="/assets/sample/page2.png" alt="">
+  <img src="/assets/sample/page3.png" alt="">
+  <img src="/assets/sample/page4.png" alt="">
